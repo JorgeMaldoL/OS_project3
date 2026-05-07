@@ -1,0 +1,85 @@
+Part 2: Test and Set
+count lock = 0, writer lock = 0, reader count = 0
+
+ Step 1: Writer 1 is trying to get the writer_lock
+ Step 2: Writer 2 is trying to get the writer_lock
+ Step 3: Writer 1 has entered the critical section. The other writers = 0, readers = 0
+ Step 4: Writer 1 is now updates the shared data.
+ Step 5: Writer 2 is trying to get the writer_lock
+ Step 6: Writer 1 writer_lock is released
+ Step 7: Writer 2 is trying to get the writer_lock
+ Step 8: Writer 2 has entered the critical section. The other writers = 0, readers = 0
+ Step 9: Reader 1 is trying to get the count_lock
+ Step 10: Writer 2 is now updates the shared data.
+ Step 11: Reader 3 is trying to get the count_lock
+ Step 12: Reader 2 is trying to get the count_lock
+ Step 13: Reader 3 is trying to get the count_lock
+ Step 14: Reader 1 is blocked. reader_count=0, writer_lock=1
+ Step 15: Reader 1 is trying to get the count_lock
+ Step 16: Reader 2 is trying to get the count_lock
+ Step 17: Reader 2 is trying to get the count_lock
+ Step 18: Reader 2 is trying to get the count_lock
+ Step 19: Reader 2 is trying to get the count_lock
+ Step 20: Writer 2 writer_lock is released
+ Step 21: Reader 3 is trying to get the count_lock
+ Step 22: Writer 1 is trying to get the writer_lock
+ Step 23: Writer 1 has entered the critical section. The other writers = 0, readers = 0
+ Step 24: Reader 3 is trying to get the count_lock
+ Step 25: Writer 2 is trying to get the writer_lock
+ Step 26: Reader 1 is blocked. reader_count=0, writer_lock=1
+ Step 27: Reader 2 is trying to get the count_lock
+ Step 28: Reader 1 is trying to get the count_lock
+ Step 29: Reader 3 is trying to get the count_lock
+ Step 30: Reader 3 is trying to get the count_lock
+ Step 31: Writer 2 is trying to get the writer_lock
+ Step 32: Reader 1 is trying to get the count_lock
+ Step 33: Reader 1 is trying to get the count_lock
+ Step 34: Reader 3 is trying to get the count_lock
+ Step 35: Reader 2 is blocked. reader_count=0, writer_lock=1
+ Step 36: Writer 1 is now updates the shared data.
+ Step 37: Reader 2 is trying to get the count_lock
+ Step 38: Reader 3 is trying to get the count_lock
+ Step 39: Reader 1 is trying to get the count_lock
+ Step 40: Writer 2 is trying to get the writer_lock
+ Step 41: Reader 3 is trying to get the count_lock
+ Step 42: Writer 1 writer_lock is released
+ Step 43: Writer 2 is trying to get the writer_lock
+ Step 44: Writer 2 has entered the critical section. The other writers = 0, readers = 0
+ Step 45: Reader 3 is trying to get the count_lock
+ Step 46: Reader 2 is blocked. reader_count=0, writer_lock=1
+ Step 47: Writer 2 is now updates the shared data.
+ Step 48: Reader 3 is trying to get the count_lock
+ Step 49: Reader 1 is trying to get the count_lock
+ Step 50: Reader 1 is trying to get the count_lock
+ Step 51: Writer 2 writer_lock is released
+ Step 52: Reader 2 is trying to get the count_lock
+ Step 53: Writer 2 is trying to get the writer_lock
+ Step 54: Reader 1 is trying to get the count_lock
+ Step 55: Writer 1 is trying to get the writer_lock
+ Step 56: Writer 1 is trying to get the writer_lock
+ Step 57: Writer 1 is trying to get the writer_lock
+ Step 58: Reader 3 is blocked. reader_count=0, writer_lock=1
+ Step 59: Reader 1 is trying to get the count_lock
+ Step 60: Reader 2 is trying to get the count_lock
+ Step 61: Reader 2 is trying to get the count_lock
+ Step 62: Writer 1 is trying to get the writer_lock
+ Step 63: Reader 1 is blocked. reader_count=0, writer_lock=1
+ Step 64: Writer 2 has entered the critical section. The other writers = 0, readers = 0
+ Step 65: Writer 1 is trying to get the writer_lock
+ Step 66: Reader 1 is trying to get the count_lock
+ Step 67: Reader 3 is trying to get the count_lock
+ Step 68: Reader 3 is trying to get the count_lock
+ Step 69: Writer 1 is trying to get the writer_lock
+ Step 70: Writer 2 is now updates the shared data.
+ Step 71: Reader 2 is trying to get the count_lock
+ Step 72: Reader 2 is trying to get the count_lock
+ Step 73: Writer 1 is trying to get the writer_lock
+ Step 74: Reader 1 is blocked. reader_count=0, writer_lock=1
+ Step 75: Reader 3 is trying to get the count_lock
+ Step 76: Reader 1 is trying to get the count_lock
+ Step 77: Reader 3 is blocked. reader_count=0, writer_lock=1
+ Step 78: Writer 2 writer_lock is released
+ Step 79: Writer 1 is trying to get the writer_lock
+ Step 80: Reader 2 is trying to get the count_lock
+
+Done
