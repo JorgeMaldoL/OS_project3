@@ -1,0 +1,125 @@
+Part 1: semaphore 
+Readers allowed=2, Writers allowed=1
+
+ Step 1: Reader 2 attempting to enter slots = 2
+ Step 2: Reader 1 attempting to enter slots = 1
+ Step 3: Writer 2 tries to do writer lock.
+ There are 1allowed to run.
+ Step 4: The writer 2Waiting for all of the readers to finish first. Right now there are 2 currently running.
+ Step 5: Reader 3 attempting to enter slots = 0
+ Step 6: Reader 3 attempting to enter slots = 0
+ Step 7: Reader 1 has entered the critical section.
+There are 1 other readers running.
+There are 0 writers running.
+ Step 8: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 9: Reader 2 has entered the critical section.
+There are 1 other readers running.
+There are 0 writers running.
+ Step 10: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 11: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 12: The writer 2Waiting for all of the readers to finish first. Right now there are 2 currently running.
+ Step 13: Reader 3 attempting to enter slots = 0
+ Step 14: The Reader 1 is currently reading the shared data. 
+ Step 15: The writer 2Waiting for all of the readers to finish first. Right now there are 2 currently running.
+ Step 16: The  Reader  1 has left the critical section and now there are 1 slots  that are open.
+ Step 17: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 18: Reader 1 attempting to enter slots = 1
+ Step 19: Reader 3 attempting to enter slots = 0
+ Step 20: Reader 1 has entered the critical section.
+There are 1 other readers running.
+There are 0 writers running.
+ Step 21: The Reader 1 is currently reading the shared data. 
+ Step 22: The Reader 2 is currently reading the shared data. 
+ Step 23: The writer 2Waiting for all of the readers to finish first. Right now there are 2 currently running.
+ Step 24: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 25: The writer 2Waiting for all of the readers to finish first. Right now there are 2 currently running.
+ Step 26: The  Reader  2 has left the critical section and now there are 1 slots  that are open.
+ Step 27: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 28: Reader 2 attempting to enter slots = 1
+ Step 29: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 30: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 31: Reader 3 attempting to enter slots = 0
+ Step 32: The writer 2Waiting for all of the readers to finish first. Right now there are 2 currently running.
+ Step 33: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 34: Reader 3 attempting to enter slots = 0
+ Step 35: Reader 2 has entered the critical section.
+There are 1 other readers running.
+There are 0 writers running.
+ Step 36: The Reader 2 is currently reading the shared data. 
+ Step 37: The  Reader  2 has left the critical section and now there are 1 slots  that are open.
+ Step 38: Reader 2 attempting to enter slots = 1
+ Step 39: Reader 2 has entered the critical section.
+There are 1 other readers running.
+There are 0 writers running.
+ Step 40: The  Reader  1 has left the critical section and now there are 1 slots  that are open.
+ Step 41: The writer 2Waiting for all of the readers to finish first. Right now there are 1 currently running.
+ Step 42: The Reader 2 is currently reading the shared data. 
+ Step 43: The writer 2Waiting for all of the readers to finish first. Right now there are 1 currently running.
+ Step 44: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 45: Reader 3 attempting to enter slots = 1
+ Step 46: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 47: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 48: The  Reader  2 has left the critical section and now there are 1 slots  that are open.
+ Step 49: Reader 1 attempting to enter slots = 1
+ Step 50: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 51: Reader 1 has entered the critical section.
+There are 1 other readers running.
+There are 0 writers running.
+ Step 52: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 53: Reader 2 attempting to enter slots = 0
+ Step 54: The writer 2Waiting for all of the readers to finish first. Right now there are 2 currently running.
+ Step 55: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 56: The Reader 1 is currently reading the shared data. 
+ Step 57: Reader 3 has entered the critical section.
+There are 1 other readers running.
+There are 0 writers running.
+ Step 58: Reader 2 attempting to enter slots = 0
+ Step 59: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 60: The  Reader  1 has left the critical section and now there are 1 slots  that are open.
+ Step 61: Reader 1 attempting to enter slots = 1
+ Step 62: The Reader 3 is currently reading the shared data. 
+ Step 63: Reader 2 attempting to enter slots = 0
+ Step 64: The  Reader  3 has left the critical section and now there are 1 slots  that are open.
+ Step 65: Reader 3 attempting to enter slots = 1
+ Step 66: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 67: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 68: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 69: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 70: Reader 1 has entered the critical section.
+There are 1 other readers running.
+There are 0 writers running.
+ Step 71: Reader 3 has entered the critical section.
+There are 1 other readers running.
+There are 0 writers running.
+ Step 72: Writer 1 tries to do writer lock.
+ There are 0allowed to run.
+ Step 73: The writer 2Waiting for all of the readers to finish first. Right now there are 2 currently running.
+ Step 74: The Reader 3 is currently reading the shared data. 
+ Step 75: The writer 2Waiting for all of the readers to finish first. Right now there are 2 currently running.
+ Step 76: The writer 2Waiting for all of the readers to finish first. Right now there are 2 currently running.
+ Step 77: Reader 2 attempting to enter slots = 0
+ Step 78: Reader 2 attempting to enter slots = 0
+ Step 79: Reader 2 attempting to enter slots = 0
+ Step 80: The  Reader  3 has left the critical section and now there are 1 slots  that are open.
+
+ Done
